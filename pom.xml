@@ -24,7 +24,7 @@
     <finalName>ToDo</finalName>
   </build>
   
-<plugin>
+<dependency>
     <groupId>com.lazerycode.jmeter</groupId>
     <artifactId>jmeter-maven-plugin</artifactId>
     <version>3.7.0</version>
@@ -51,5 +51,5 @@
         </goals>
       </execution>
     </executions>
-  </plugin>
+  </dependency>
 </project>
